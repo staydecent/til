@@ -44,6 +44,7 @@ def main(argv):
         myfile.close()
 
     with cd(DIR):
+        subprocess.call(["git", "add", "."])
         subprocess.call(["git", "commit", "-am", f"\"Added {filename}\""])
         subprocess.call(["git", "push", "origin", "main"])
 
