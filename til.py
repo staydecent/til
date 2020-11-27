@@ -45,7 +45,7 @@ def main(argv):
 
     with cd(DIR):
         subprocess.call(["git", "add", "."])
-        subprocess.call(["git", "commit", "-am", f"\"Added {argv[0]}/{argv[1]}\""])
+        subprocess.call(["git", "commit", "-am", f"Added {argv[0]}/{argv[1]}"])
         subprocess.call(["git", "push", "origin", "main"])
 
     print(f"Wrote {filename}")
