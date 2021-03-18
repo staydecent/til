@@ -9,7 +9,8 @@ from contextlib import contextmanager
 from subprocess import call
 
 
-DIR = '/home/aunger/Dev/til/'
+# DIR = '/home/aunger/Dev/til/'
+DIR = '~/Documents/Adrian/dev/til/'
 EDITOR = os.environ.get('EDITOR','vim')
 initial_message = b"# "
 
