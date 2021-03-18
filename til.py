@@ -11,7 +11,7 @@ from subprocess import call
 
 # DIR = '/home/aunger/Dev/til/'
 DIR = '~/Documents/Adrian/dev/til/'
-EDITOR = os.environ.get('EDITOR','vim')
+EDITOR = os.environ.get('EDITOR','nvim')
 initial_message = b"# "
 
 
